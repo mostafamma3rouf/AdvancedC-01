@@ -82,6 +82,14 @@
 
             //Show("My name is Mostafa");
             #endregion
+
+            #region Q9: What is the 'new()' constraint? Write an example.
+            /*
+             * The new() constraint means that the generic type must have a public parameterless
+             */
+
+            //Student<int> student = new(1);
+            #endregion
         }
     }
 }
