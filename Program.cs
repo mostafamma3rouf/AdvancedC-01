@@ -144,6 +144,11 @@
             // the in keyword is used to specify that a generic type parameter is contravariant,
             // meaning it can be used as a parameter type but not as a return type.
             #endregion
+
+            #region Q17: What is the difference between covariance and contravariance ?
+            // Covariance (out) works with output and allows derived-to-base conversion.
+            // Contravariance (in) works with input and allows base-to-derived conversion.
+            #endregion
         }
     }
 }
