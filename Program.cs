@@ -9,6 +9,11 @@
             b = temp;
         }
 
+        static T FindMax<T>(T a, T b) where T : IComparable<T>
+        {
+            return a.CompareTo(b) > 0 ? a : b;
+        }
+
         static void Main(string[] args)
         {
             #region Q1: What is a generic class? Why use generics?
@@ -37,6 +42,12 @@
             //int a = 10, b = 6;
             //Swap<int>(ref a, ref b);
             //Console.WriteLine($"a = {a}, b = {b}");
+            #endregion
+
+            #region Q5: Write a generic method FindMax<T> that finds maximum value
+
+            //int result = FindMax(10, 6);
+            //Console.WriteLine(result);
             #endregion
         }
     }
