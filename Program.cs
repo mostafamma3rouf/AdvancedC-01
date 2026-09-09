@@ -99,6 +99,15 @@
             //Printer<IPrint> Test = new Printer<IPrint>();
             //Test.PrintItem();
             #endregion
+
+            #region Q11: What is the base class constraint? Write an example.
+            /*
+             * means that the generic type T must inherit from a specific base class.
+             */
+
+            //Cat<string> cat = new Cat<string>();
+            //cat.Eat();
+            #endregion
         }
     }
 }
