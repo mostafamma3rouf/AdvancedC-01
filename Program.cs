@@ -137,6 +137,13 @@
             // the out keyword is used to specify that a generic type parameter is covariant,
             // meaning it can be used as a return type but not as a parameter type.
             #endregion
+
+            #region Q16: What is contravariance? Explain the 'in' keyword.
+            // Contravariance allows a generic type with a base type to be assigned to a generic type with a derived type.
+
+            // the in keyword is used to specify that a generic type parameter is contravariant,
+            // meaning it can be used as a parameter type but not as a return type.
+            #endregion
         }
     }
 }
