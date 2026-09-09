@@ -18,6 +18,11 @@
         {
             Console.WriteLine(value);
         }
+
+        static void Show<T>(T value) where T : class
+        {
+            Console.WriteLine(value);
+        }
         static void Main(string[] args)
         {
             #region Q1: What is a generic class? Why use generics?
@@ -68,6 +73,14 @@
              */
 
             //PrintValue<int>(10);
+            #endregion
+
+            #region Q8: What is the 'class' constraint? Write an example.
+            /*
+             * The class constraint means that the generic type must be a reference type
+             */
+
+            //Show("My name is Mostafa");
             #endregion
         }
     }
