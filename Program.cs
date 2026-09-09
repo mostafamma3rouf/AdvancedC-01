@@ -49,6 +49,14 @@
             //int result = FindMax(10, 6);
             //Console.WriteLine(result);
             #endregion
+
+            #region Q6: What is a generic interface? Write IRepository<T>.
+            /*
+             * A generic interface is an interface that can work with different data types.
+             */
+
+            IRepository<string> repo;
+            #endregion
         }
     }
 }
