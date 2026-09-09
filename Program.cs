@@ -149,6 +149,10 @@
             // Covariance (out) works with output and allows derived-to-base conversion.
             // Contravariance (in) works with input and allows base-to-derived conversion.
             #endregion
+
+            #region Q18: How do static members work in generic types?
+            // A static member belongs to the class itself, not to an object.
+            #endregion
         }
     }
 }
