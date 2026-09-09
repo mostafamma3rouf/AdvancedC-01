@@ -1,4 +1,6 @@
-﻿namespace AdvancedC_01
+﻿using System.ComponentModel;
+
+namespace AdvancedC_01
 {
     internal class Program
     {
@@ -156,6 +158,21 @@
 
             #region Q19: How can you inherit from a generic class?
             // A generic class can be inherited by specifying its type or by passing the generic type to the child class.
+            #endregion
+
+            #region Q20: Complete Exercise - Create a generic Cache<TKey,TValue > with Add, Get, Remove, Contains, and expiration support.
+
+            #endregion
+
+            #region Search
+            /*
+             * The out is a keyword in C# which is used for the passing the arguments to methods as a reference type. 
+               It is generally used when a method returns multiple values.
+               a user is allowed to pass multiple out parameters to the method and the method returns multiple values. 
+
+             * in is used to state that the parameter passed cannot be modified by the method an any attempt 
+               to modified will give you compile-time error
+             */
             #endregion
         }
     }
