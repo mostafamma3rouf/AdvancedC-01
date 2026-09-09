@@ -108,6 +108,13 @@
             //Cat<string> cat = new Cat<string>();
             //cat.Eat();
             #endregion
+
+            #region Q12: How do you apply multiple constraints? Write an example.
+            /*
+             * by putting them after where T, separated by commas.
+             */
+
+            #endregion
         }
     }
 }
