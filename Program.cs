@@ -4,7 +4,13 @@
     {
         static void Main(string[] args)
         {
-            
+            #region Q1: What is a generic class? Why use generics?
+            /*
+             * the type of data is specified when the code is used, not when it is written.
+             
+             * becouse it: 1. reusable, 2. type safe, 3. better performance, 4. cleaner code.
+             */
+            #endregion
         }
     }
 }
