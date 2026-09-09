@@ -17,6 +17,11 @@
             //name.ADD("Mostafa");
             //Console.WriteLine(name.Get());
             #endregion
+
+            #region Q3:What are multiple type parameters? Write Pair<TKey, TValue >.
+            //Pair<int, string> std = new Pair<int, string>(1, "Mostafa");
+            //Console.WriteLine(std.ToString());
+            #endregion
         }
     }
 }
