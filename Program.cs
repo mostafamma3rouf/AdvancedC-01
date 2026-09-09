@@ -119,6 +119,17 @@
             #region Q13: What does the 'default' keyword do in generics?
             // The default keyword returns the default value of a generic type
             #endregion
+
+            #region Q14: Write a SafeList<T> that returns default when the index is invalid.
+            
+            //SafeList<string> safeList = new SafeList<string>();
+            //safeList.Add("Mostafa");
+            //safeList.Add("Mohamed");
+            //safeList.Add("Ma3rouf");
+
+            //Console.WriteLine(safeList.Get(2));
+            //Console.WriteLine(safeList.Get(6));
+            #endregion
         }
     }
 }
