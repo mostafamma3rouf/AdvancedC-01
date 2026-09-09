@@ -90,6 +90,15 @@
 
             //Student<int> student = new(1);
             #endregion
+
+            #region Q10: What is the interface constraint? Write an example.
+            /*
+             * The interface constraint means that the generic type must implement a specific interface.
+             */
+
+            //Printer<IPrint> Test = new Printer<IPrint>();
+            //Test.PrintItem();
+            #endregion
         }
     }
 }
