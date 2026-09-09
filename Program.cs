@@ -2,6 +2,13 @@
 {
     internal class Program
     {
+        static void Swap<T>(ref T a, ref T b)
+        {
+            T temp = a;
+            a = b;
+            b = temp;
+        }
+
         static void Main(string[] args)
         {
             #region Q1: What is a generic class? Why use generics?
@@ -21,6 +28,15 @@
             #region Q3:What are multiple type parameters? Write Pair<TKey, TValue >.
             //Pair<int, string> std = new Pair<int, string>(1, "Mostafa");
             //Console.WriteLine(std.ToString());
+            #endregion
+
+            #region Q4: What is a generic method? Write Swap<T> method.
+            /*
+             * A generic method is a method that works with different data types without writing a separate method for each type
+             */
+            //int a = 10, b = 6;
+            //Swap<int>(ref a, ref b);
+            //Console.WriteLine($"a = {a}, b = {b}");
             #endregion
         }
     }
