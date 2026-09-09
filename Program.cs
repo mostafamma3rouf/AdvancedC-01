@@ -121,7 +121,7 @@
             #endregion
 
             #region Q14: Write a SafeList<T> that returns default when the index is invalid.
-            
+
             //SafeList<string> safeList = new SafeList<string>();
             //safeList.Add("Mostafa");
             //safeList.Add("Mohamed");
@@ -129,6 +129,13 @@
 
             //Console.WriteLine(safeList.Get(2));
             //Console.WriteLine(safeList.Get(6));
+            #endregion
+
+            #region Q15: What is covariance? Explain the 'out' keyword.
+            // Covariance means you can use a derived type instead of its base type in a generic interface or delegate.
+
+            // the out keyword is used to specify that a generic type parameter is covariant,
+            // meaning it can be used as a return type but not as a parameter type.
             #endregion
         }
     }
