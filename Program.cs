@@ -153,6 +153,10 @@
             #region Q18: How do static members work in generic types?
             // A static member belongs to the class itself, not to an object.
             #endregion
+
+            #region Q19: How can you inherit from a generic class?
+            // A generic class can be inherited by specifying its type or by passing the generic type to the child class.
+            #endregion
         }
     }
 }
