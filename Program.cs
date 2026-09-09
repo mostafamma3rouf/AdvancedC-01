@@ -14,6 +14,10 @@
             return a.CompareTo(b) > 0 ? a : b;
         }
 
+        static void PrintValue<T>(T value) where T : struct
+        {
+            Console.WriteLine(value);
+        }
         static void Main(string[] args)
         {
             #region Q1: What is a generic class? Why use generics?
@@ -55,7 +59,15 @@
              * A generic interface is an interface that can work with different data types.
              */
 
-            IRepository<string> repo;
+            //IRepository<string> repo;
+            #endregion
+
+            #region Q7: What is the 'struct' constraint? Write an example.
+            /*
+             * The struct constraint means that the generic type must be a value type.
+             */
+
+            //PrintValue<int>(10);
             #endregion
         }
     }
