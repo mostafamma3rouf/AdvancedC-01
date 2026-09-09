@@ -11,6 +11,12 @@
              * becouse it: 1. reusable, 2. type safe, 3. better performance, 4. cleaner code.
              */
             #endregion
+
+            #region Q2: Write a generic class Container<T> with Add and Get methods.
+            //Container<string> name = new Container<string>();
+            //name.ADD("Mostafa");
+            //Console.WriteLine(name.Get());
+            #endregion
         }
     }
 }
